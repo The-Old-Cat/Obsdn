@@ -219,9 +219,19 @@
               "icon": "lucide-archive",
               "title": "Все свойства"
             }
+          },
+          {
+            "id": "4aba7a712462b3c9",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 7
       },
       {
         "id": "9512a7b62a0bbe28",
@@ -260,8 +270,10 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "4aba7a712462b3c9",
   "lastOpenFiles": [
+    "inbox/1C.md",
+    "inbox/Ubuntu Server.md",
     "00.Home/Storage map.md",
     "05.Notes/Daily/0_Daily.md",
     "00.Home/Review.md",
@@ -293,7 +305,6 @@
     "00.Home/attachments",
     "Templates/Еженедельно/WeeklyReview.md",
     "02.Работа/Пример.md",
-    "Templates/MOC/MOCTemplate.md",
     "05.Notes/Weekly",
     "05.Notes/Daily",
     "Файлы/Атомные Привычки.pdf",
