@@ -10,35 +10,12 @@
           {
             "id": "e7a7b303c61786dc",
             "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00.Home/Storage map.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Storage map"
-            }
-          },
-          {
-            "id": "34dc7c3eccfe08a7",
-            "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "00.Home/Review.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -51,6 +28,7 @@
                   "unlinkedCollapsed": true
                 }
               },
+              "pinned": true,
               "icon": "lucide-file",
               "title": "Review"
             }
@@ -177,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Home/Storage map.md",
+                "file": "00.Home/Review.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура Storage map"
+              "title": "Структура Review"
             }
           },
           {
@@ -192,8 +170,8 @@
             "state": {
               "type": "reminder-list",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Плагин больше не активен"
+              "icon": "clock",
+              "title": "Reminders"
             }
           },
           {
@@ -202,8 +180,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Плагин больше не активен"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -266,25 +244,26 @@
       "quickadd:QuickAdd": false,
       "omnisearch:Omnisearch": false,
       "homepage:Open homepage": false,
-      "obsidian-git:Open Git source control": false,
-      "terminal:Open terminal": false
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "4aba7a712462b3c9",
   "lastOpenFiles": [
+    "00.Home/Review.md",
+    "01.Private/Project/Сервер 1С на Linux.md",
+    "Templates/Проекты/ProjectTemplate.md",
+    "03.Information/0_Information.md",
+    "02.Working/Project/Пример.md",
+    "00.Home/Storage map.md",
     "inbox/1C.md",
     "inbox/Ubuntu Server.md",
-    "00.Home/Storage map.md",
     "05.Notes/Daily/0_Daily.md",
-    "00.Home/Review.md",
     "00.Home/attachments/bg_home.webp",
     "00.Home/0_Start.md",
     "05.Notes/0_Notes.md",
     "Templates/Архивировать/0_Archive.md",
     "inbox/0_inbox.md",
-    "inbox/Project/Пример .md",
     "Templates/Задачи/TaskTemplate.md",
-    "Templates/Проекты/ProjectTemplate.md",
     "Templates/Заметки/DefaultNote.md",
     "Templates/Ежедневно/Daily.md",
     "05.Notes/Daily/ 02-07-2025.md",
@@ -303,8 +282,6 @@
     "03.Information/MOC.md",
     "00.Home/attachments/wallpaperflare.com_wallpaper (3).jpg",
     "00.Home/attachments",
-    "Templates/Еженедельно/WeeklyReview.md",
-    "02.Работа/Пример.md",
     "05.Notes/Weekly",
     "05.Notes/Daily",
     "Файлы/Атомные Привычки.pdf",

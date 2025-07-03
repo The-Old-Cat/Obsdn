@@ -1,6 +1,6 @@
 ---
 created: 2025-07-01T12:47
-updated: 2025-07-03T21:46
+updated: 2025-07-03T23:10
 cssclasses:
   - dashboard
 tags:
@@ -36,7 +36,7 @@ tags:
 ---
 > [!multi-column]
 >
->> [!todo]+ [[0_Знания | Знания]]
+>> [!todo]+ [[0_Information| Знания]]
 >> 
 >
 >> [!todo]+ [[0_Архив | Архив]]

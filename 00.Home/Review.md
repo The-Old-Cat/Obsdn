@@ -1,6 +1,6 @@
 ---
 created: 2025-07-01T09:48
-updated: 2025-07-03T11:20
+updated: 2025-07-03T23:20
 cssclasses:
   - dashboard
 ---
@@ -19,18 +19,19 @@ cssclasses:
 > [!multi-column]
 >> [!done] Проекты
 >> ### Рабочие 
->>   ```dataview
->> table file.name as "Проект", status
+>> ```dataview
+>> table title as "Проект",  status
 >> from "02.Working/Project"
 >> where contains(status, "[x] В работе")
 >> ```
 >> ### Личные 
 >>   ```dataview
->> table file.name as "Проект", status
+>> table title as "Проект",  status
 >> from "01.Private/Project"
 >> where contains(status, "[x] В работе")
 >> ```
->
+---
+> [!multi-column]
 >> [!example] 📘 Дневники (последние 14)
 >>   ```dataview
 >> list
@@ -39,8 +40,7 @@ cssclasses:
 >> sort file.name desc
 >> limit 14
 >> ```
-----
-> [!multi-column]
+>
 >> [!todo] 📝 Все задачи
 >> ```dataview
 >> table file.name as "Задача", status, priority
@@ -48,12 +48,21 @@ cssclasses:
 >>where contains(file.name, "Задача")
 >>sort file.mtime desc
 >>```
->
->> [!summary] 📝 Новое
+---
+> [!multi-column]
+>> [!summary] Знания
 >> ```dataview
->>table 
->>   file.link as "Файл",
-> >  file.mtime as "Обновлено"
+>>table  
+>>file.mtime as "Обновлено"
+>> from "03.Information" or "03.Information/**"
+>> sort file.mtime desc
+>> limit 20
+>> ```
+>
+>> [!important] Новое
+>> ```dataview
+>>table  
+>>file.mtime as "Обновлено"
 >> from "inbox" or "inbox/**"
 >> sort file.mtime desc
 >> limit 20
