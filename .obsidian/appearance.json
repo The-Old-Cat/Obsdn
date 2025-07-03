@@ -1,0 +1,10 @@
+{
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "dashboard",
+    "dashboard-ReadLineLength",
+    "MCL Multi Column",
+    "MCL Wide Views"
+  ],
+  "cssTheme": "Minimal"
+}

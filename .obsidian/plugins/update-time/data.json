@@ -1,0 +1,11 @@
+{
+  "ignoredFolders": [
+    "Templates",
+    "Templates/MOC",
+    "Templates/Заметки",
+    "Templates/Архивировать",
+    "Templates/Ежедневно",
+    "Templates/Еженедельно",
+    "Templates/Задачи"
+  ]
+}
